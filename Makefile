@@ -9,7 +9,7 @@ install-bin:
 	@echo installing $(NAME)...
 	install -Dm 755 $(NAME).zsh $(PREFIX)/bin/$(NAME)
 
-install-autostart:
+install-start:
 	install -Dm 644 autostart/$(NAME).desktop $(START)/$(NAME).desktop
 
 install-docs:
@@ -24,4 +24,4 @@ uninstall:
 	rm -rf $(LICENSE)
 	rm -f $(START)/$(NAME).desktop
 
-install: install-bin install-autostart install-docs
+install: install-bin install-start install-docs
