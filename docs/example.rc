@@ -1,0 +1,14 @@
+# walsh rc
+
+# path to images
+WALL_DIR="$HOME/Wallpapers"
+
+# delay between wallpapers
+INTERVAL=10
+
+# background mode
+# opts: center fill max scale tile
+MODE="fill"
+
+# span multiple displays
+SPAN=false

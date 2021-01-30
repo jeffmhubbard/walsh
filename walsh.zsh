@@ -101,7 +101,7 @@ function usage() {
   echo "Usage: $SH_NAME [-d <PATH>] [-m <MODE>] [-t <MIN>] [-s]"
   echo
   echo "optional:"
-  echo "  -C, --config      wallpaper directory"
+  echo "  -C, --config      path to config file"
   echo "  -d, --dir         wallpaper directory"
   echo "  -m, --mode        background mode: center fill max scale tile"
   echo "  -t, --time        time to shuffle in minutes"
@@ -132,7 +132,6 @@ do
   case $arg in
     -C | --config)
       RC_PATH=$2
-      source $2
       shift 2;;
     -d | --dir)
       WALL_DIR=$2
