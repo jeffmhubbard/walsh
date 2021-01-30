@@ -13,7 +13,7 @@ install-autostart:
 	install -Dm 644 autostart/$(NAME).desktop $(START)/$(NAME).desktop
 
 install-docs:
-	install -Dm 644 docs/config.example $(DOCS)/config.example
+	install -Dm 644 docs/example.rc $(DOCS)/example.rc
 	install -Dm 644 README.md $(DOCS)/README.md
 	install -Dm 644 LICENSE $(LICENSE)/LICENSE
 
