@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Wallpaper Shuffler
+Type=Application
+Exec=walsh
+TryExec=walsh
+StartupNotify=false
